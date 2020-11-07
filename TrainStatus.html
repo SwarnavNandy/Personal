@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html>
+<script>
+function showMap()
+{
+	document.frmTRN.action="https://enquiry.indianrail.gov.in/mntes/TrnMap?opt=map&amp&subOpt=spot";
+	document.frmTRN.submit();
+
+}
+
+function showFullRoute()
+{
+	document.frmTRN.action="https://enquiry.indianrail.gov.in/mntes/q?opt=TrainRunning&subOpt=full";
+	document.frmTRN.submit();
+}
+</script>
+<title>I Love you Menka!</title>
+<body>
+I Love you Menka! -Swarnav<br/>
+Niche ek button pe click karna based on what you want to see<br/><br/>
+
+<form name="frmTRN" method="post" onsubmit="return false;" action="https://enquiry.indianrail.gov.in/mntes/TrnMap?opt=map&amp;subOpt=spot" target="formresult">
+<input type="hidden" type="text" name="trainNo" id="trainNo" value="02779">
+
+<input type="hidden" title="Daily#Daily" name="jStation" id="jStation"  value="PUNE#false">
+<input type="hidden" name="jDate" value="08-Nov-2020">
+<input type="hidden" name="jDateDay" value="Sat">
+</form>
+<input type="button" name="st" value="Show Map" onclick="showMap();">
+<input type="button" name="fr" value="Show Running Status" onclick="showFullRoute();">
+
+<br/><br/>Stay safe my love!<br/>
+My love, my sweetheart, my queen, my shoona.<br/>
+Never forget you're my sherni. Never be afraid.<br/>
+I love you and I'll be there for you always, no matter what.<br/>
+</body>
+</html>
