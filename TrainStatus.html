@@ -14,10 +14,9 @@ function showFullRoute()
 }
 </script>
 <form name="frmTRN" method="post" onsubmit="return false;" action="https://enquiry.indianrail.gov.in/mntes/TrnMap?opt=map&amp;subOpt=spot" target="formresult">
-<input type="text" name="trainNo" id="trainNo" value="02779">
-<select name="jStation" id="jStation">
-				<option title="Daily#Daily" value="PUNE#false" selected="">PUNE JN</option>
-			</select>
+<input type="hidden" type="text" name="trainNo" id="trainNo" value="02779">
+
+<input type="hidden" title="Daily#Daily" name="jStation" id="jStation"  value="PUNE#false">
 <input type="hidden" name="jDate" value="08-Nov-2020">
 <input type="hidden" name="jDateDay" value="Sat">
 </form>
